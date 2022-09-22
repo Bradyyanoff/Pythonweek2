@@ -1,4 +1,6 @@
 courses_file = open("requiredCS (1).txt", 'r')
 lines_from_file = courses_file.readlines()
 for line in lines_from_file:
-    print(line)
+    loud_line = line.upper()
+    print(loud_line)
+print("those are thew classes you HAVE to take for the CS Major")
